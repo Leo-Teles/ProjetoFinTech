@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.container {
+	display: flex;
+
+}
+
+.conteudo-left {
+	width: 45vw;
+	height: 100vh;
+	background-color: #61469C;
+	border-radius: 0 50px 50px 0;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+/* content: '';
+	position: absolute;
+	width: 2000px;
+	height: 2000px;
+	border-radius: 50%;
+	background: linear-gradient(-45deg, #9678BD);
+	top: -10%;
+	right: 48%;
+	transform: translateY(-50%); */
+
+.fintech {
+	color: white;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 4em;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+}
+
+.img-cadastro {
+	width: 85%;
+	padding-top: 10%;
+}
+
+.conteudo-right {
+	width: 55vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.titulo {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 3.5em;
+	color: #61469C;
+}
+
+.login-frase {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1.5em;
+	padding-bottom: 10%;
+	color: #494949;
+}
+
+
+label {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	color: #61469C;
+
+
+}
+
+.input-box {
+	padding-top: 6px;
+
+}
+
+.input {
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+	border: 2px solid #C0C0C0;
+	font-weight: 500;
+	color: #494949;
+	padding-left: 2%;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.complemento-baixo {
+	padding: 10px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.esqueceu-senha {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	color: #494949;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.caixa-button {
+	align-items: center;
+	padding-top: 2%;
+
+}
+
+.button-entrar {
+	width: 100px;
+	height: 50px;
+	background-color: #61469C;
+	color: white;
+	border-radius: 15px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.outros-login {
+	color: #494949;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	padding-top: 6%;
+}
+
+.todas-fotos {
+	display: flex;
+	padding-top: 3%;
+	justify-content: space-between;
+	width: 35%;
+}
+
+
+@media only screen and (min-width: 530px) and (max-width:800px) {
+
+	.fintech {
+		font-size: 3.2em;
+	}
+
+	.img-login {
+		width: 80%;
+		padding: 15% 0 0% 10%;
+	}
+
+	.conteudo-right {
+		padding: 0 5% 0 5%;
+	}
+
+	.titulo {
+		font-size: 2em;
+	}
+
+	.login-frase {
+		font-size: 1.2em;
+	}
+
+	.todas-fotos {
+		width: 45%;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width:530px) {
+
+	/* .conteudo-left {
+		position: absolute;
+		width: 3000px;
+		height: 2000px;
+		border-radius: 90%;
+		background-color: #61469C;
+		top: -10%;
+		right: 30%;
+		transform: translateY(-50%);
+	} */
+
+	.conteudo-left {
+		display: none;
+	}
+
+	.conteudo-right {
+		width: 100%;
+		height: 100%;
+		padding: 50% 10% 0 10%;
+		display: flex;
+		align-items: center;
+
+	}
+
+	.titulo {
+		font-size: 2.5em;
+	}
+
+	.login-frase {
+		font-size: 1.5em;
+	}
+
+	label {
+		font-size: 1.2em;
+	}
+
+	.input {
+		height: 40px;
+		font-size: 1em;
+	}
+
+	.esqueceu-senha {
+		font-size: 1em;
+	}
+
+	.button-entrar {
+		width: 120px;
+		font-size: 1.4em;
+	}
+
+	.caixa-button {
+		padding-top: 8%;
+	}
+
+	.outros-login {
+		font-size: 1.2em;
+	}
+
+	.todas-fotos {
+		width: 45%;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width:400px){
+
+	.conteudo-left{
+		display: none;
+	}
+
+	.conteudo-right {
+		width: 100%;
+		height: 100%;
+		padding: 50% 10% 0 10%;
+	}
+
+	.titulo {
+		font-size: 2em;
+	}
+
+	.login-frase {
+		font-size: 1.3em;
+	}
+
+	label {
+		font-size: 1em;
+	}
+
+	.input {
+		height: 35px;
+		font-size: 1em;
+	}
+
+	.esqueceu-senha {
+		font-size: 0.8em;
+	}
+
+	.button-entrar {
+		font-size: 1.2em;
+	}
+
+	.outros-login {
+		font-size: 1.2em;
+	}
+
+	.todas-fotos {
+		width: 50%;
+	}
+
+
+}
